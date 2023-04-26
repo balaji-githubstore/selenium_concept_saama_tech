@@ -17,7 +17,7 @@ public class Demo3SignUp {
 		
 		driver.get("https://facebook.com/");  //wait for page load to complete 
 		
-		driver.findElement(By.linkText("Create new account")).click();
+		driver.findElement(By.linkText("Create new account")).click(); //checks for present of element 0.5s 
 	
 		driver.findElement(By.name("firstname")).sendKeys("john");
 		driver.findElement(By.name("lastname")).sendKeys("wick");
